@@ -9,6 +9,7 @@ import java.time.LocalDate;
 @Setter
 public class Pet {
 
+    private Long id;
     private PetType petType;
     private Owner owner;
     private LocalDate birthDate;
